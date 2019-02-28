@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\swath\Documents\GitHub\lab-6-carson\Lab6.uvproj
+Project File Date:  10/22/2017
+
+<h2>Output:</h2>
+Rebuild target 'Lab6'
+assembling startup.s...
+compiling Sound.c...
+compiling piano.c...
+compiling dac.c...
+SysTickInts.h(43): warning:  #1295-D: Deprecated declaration SysTick_Init_Wait - give arg types
+  void SysTick_Init_Wait(); 
+dac.c: 1 warning, 0 errors
+compiling Lab6.c...
+SysTickInts.h(43): warning:  #1295-D: Deprecated declaration SysTick_Init_Wait - give arg types
+  void SysTick_Init_Wait(); 
+Lab6.c: 1 warning, 0 errors
+linking...
+.\Lab6.axf: Error: L6218E: Undefined symbol SysTick_Wait (referred from dac.o).
+.\Lab6.axf: Error: L6218E: Undefined symbol SysTick_Init (referred from lab6.o).
+.\Lab6.axf: Error: L6218E: Undefined symbol SysTick_Init_Wait (referred from lab6.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+".\Lab6.axf" - 3 Error(s), 2 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
